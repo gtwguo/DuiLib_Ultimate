@@ -79,10 +79,11 @@ namespace DuiLib {
 		void Unsubclass();
 		void ShowWindow(bool bShow = true, bool bTakeFocus = true);
 		UINT ShowModal();
-    	void ShowModalFake();
+    		void ShowModalFake();
 		void Close(UINT nRet = IDOK);
-		void CenterWindow();	// 居中，支持扩展屏幕
+		void CenterWindow();	// 戮脫脰脨拢卢脰搂鲁脰脌漏脮鹿脝脕脛禄
 		void SetIcon(UINT nRes);
+		void SetIcon(LPCTSTR path);
 
 		LRESULT SendMessage(UINT uMsg, WPARAM wParam = 0, LPARAM lParam = 0L);
 		LRESULT PostMessage(UINT uMsg, WPARAM wParam = 0, LPARAM lParam = 0L);
